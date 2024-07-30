@@ -1,0 +1,81 @@
+/* Home.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .flight-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .flight-list-topic{
+    display: flex;
+  }
+  
+  .flight-list-topic p{
+    flex: 1;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
+  .flight-list-main-details{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .flight-list-topic {
+    background-color: #f0f0f0;
+  }
+  
+  .flight-item {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+  }
+  
+  .flight-item:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .flight-item p {
+    text-align: left;
+  }
+  
+  button {
+    background-color: #0e0cab;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  

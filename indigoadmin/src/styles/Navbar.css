@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+.navbar-logo{
+    display: flex;
+}
+.navbar-logo img{
+    width: max(6%,60px);
+}
+.navbar .profile{
+    width: 40px;
+}
+.navbar-logo h2{
+    font-size: 1.3rem;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navbar h3{
+  margin-left: -260px;
+}
+
+.profileIcon{
+    font-size: 3rem;
+}

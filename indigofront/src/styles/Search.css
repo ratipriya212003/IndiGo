@@ -1,0 +1,132 @@
+.search {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: rgb(191, 216, 238);
+    min-height: 84vh;
+    box-sizing: border-box;
+  }
+  
+  
+  .search-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    width: 80%;
+    max-width: 600px;
+    transition: all 0.3s ease;
+  }
+  
+  .search-info:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .search-info input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    transition: border 0.2s ease;
+  }
+  
+  .search-info input[type="text"]:focus {
+    border: 2px solid #74b9ff;
+  }
+  
+  .search-info button {
+    background-color: #74b9ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-info button:hover {
+    background-color: #0984e3;
+  }
+  
+  .search-info i {
+    font-size: 20px;
+  }
+  
+
+  .error-message {
+    color: #e74c3c;
+    background-color: #ffebe9;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #e74c3c;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  
+  .flight-details {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 80%;
+    transition: all 0.3s ease;
+  }
+  
+  .flight-details:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .flight-details h3 {
+    color: #2d3436;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .flight-details p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #636e72;
+  }
+  
+  .flight-details strong {
+    color: #2d3436;
+  }
+  
+  .flight-details p:last-child {
+    margin-bottom: 0;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .search-info {
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .search-info input[type="text"] {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  
+    .search-info button {
+      width: 100%;
+    }
+  
+    .error-message, .flight-details {
+      width: 90%;
+    }
+  }
